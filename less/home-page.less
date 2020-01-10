@@ -58,4 +58,42 @@
       margin-bottom: 30px;
     }
   }
+  
 }// home
+.header {
+  border-bottom: 2px dashed @navigation-border;
+
+}
+header {
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      @media (max-width: @mobile) {
+        display: flex;
+        flex-direction: column;
+      }
+
+
+}
+.top {
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      border-bottom: 2px dashed @navigation-border;
+      .pic-bus {
+        margin-bottom: 20px;
+      }
+}
+
+
+.destination {
+  button {
+    .btn(@white, @green, 25px, 80%,)
+  }
+}
+
